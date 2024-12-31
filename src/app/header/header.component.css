@@ -1,0 +1,23 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px;
+    background-color: black;
+}
+
+ul{
+    display: flex;
+    column-gap: 2rem;
+}
+
+li{
+    list-style: none;
+    font-size: 22px;
+    color: white;
+    cursor: pointer;
+}
+
+li:hover{
+    text-decoration: underline;
+}
