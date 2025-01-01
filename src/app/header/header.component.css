@@ -1,5 +1,6 @@
 .header{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
     padding: 0px 30px;
@@ -20,4 +21,20 @@ li{
 
 li:hover{
     text-decoration: underline;
+}
+
+#menu{
+    display: none;
+}
+
+
+
+@media (max-width:680px){
+    ul{
+        display: none;
+    }
+
+    #menu{
+        display: block;
+    }
 }
