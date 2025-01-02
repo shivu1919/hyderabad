@@ -1,46 +1,19 @@
 .first{
     background-image: url(ch.jpg);
+    height: 100vh;
     background-size: cover;
-    height: 600px;
-    width:100%;
     color:white;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: start;
-    justify-content: space-evenly;
+    font-size: 2.5rem;
 }
 
-#empty{
-    width:20%;
+@media (max-width:680px){
+    .first{
+        background-size: contain;
+        font-size: 1.2rem;
+        background-repeat: no-repeat;
+    }
 }
 
-#first_1{
-  
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-
-.about{
-    background-image: url(about.jpg);
-    display:flex;
-    align-items: center;
-    flex-direction: column;
-}
-
-#about_3{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    column-gap: 30px;
-}
-
-#card1, #card2, #card3{
-    height: 500px;
-    width:400px;
-    background-color: rgb(224, 215, 215);
-}
 
 
 
